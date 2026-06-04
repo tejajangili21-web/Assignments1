@@ -1,0 +1,8 @@
+#Program 24
+#Write a Python Program to Convert Decimal to Binary, Octal and Hexadecimal.
+#How can we manually convert a decimal number to binary, octal and hexadecimal?
+dec_num = int(input('Enter a decimal number: '))
+print("The decimal value of", dec_num, "is:")
+print(bin(dec_num), "in binary.")
+print(oct(dec_num), "in octal.")
+print(hex(dec_num), "in hexadecimal.")
